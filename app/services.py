@@ -5,7 +5,8 @@ import re
 
 
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
-GEMINI_API_KEY = "AIzaSyAnhcZkmv1puOgDFQ8APU7Uo6yxVTjtrs8"
+GEMINI_API_KEY = "insert_api_key"
+
 
 async def get_project_tasks(project_name:str):
     headers = {"Content-Type": "application/json"}
